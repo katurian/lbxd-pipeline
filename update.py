@@ -11,10 +11,10 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-apikey = 'f6e5971115ec98c260908c30baa0eb872cc8f6a731d7abf03c16415d9b027bc0'
-apisecret = 'ea38a8c9fd6036bf1a2444bce37b227b7fdd28835db735554262808336853490'
+apikey = 'f6e5971115ec9XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+apisecret = 'ea38a8c9fdXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 username = 'pybot'
-password = 'allusionist'
+password = 'password'
 
 def generateToken(username, password):
     nonce = uuid.uuid4()
